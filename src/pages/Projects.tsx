@@ -1,12 +1,14 @@
 
+import moove from "../assets/moove.png";
 import piggy from "../assets/piggy.png";
 import contactForm from "../assets/contact-form.png";
-import  calculator from "../assets/calculator.png";
+import calculator from "../assets/calculator.png";
 
 const projects = [
   {
     title: "Bolt Booking Website",
     description: "Built using HTML and CSS",
+    image: moove,
     link: "https://moove-nine.vercel.app/",
   },
   {
@@ -31,7 +33,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="bg-blue-50 min-h-screen px-4 py-16">
+    <div className="bg-blue-100 min-h-screen px-4 py-16">
       <h2 className="text-4xl font-bold text-center mb-12 text-blue-700">
         My Projects
       </h2>

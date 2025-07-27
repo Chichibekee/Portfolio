@@ -2,7 +2,7 @@ import { FiMail, FiPhone, FiGithub, FiLinkedin } from 'react-icons/fi';
 
 const Contact = () => {
  return (
-  <div className="min-h-screen flex flex-col justify-center items-center px-6 py-10 bg-gray-50 text-gray-800">
+  <div className="min-h-screen flex flex-col justify-center items-center px-6 py-10 text-gray-800">
     <h1 className="text-3xl font-bold mb-6 text-blue-600">Contact Me</h1>
 
     {/* Contact Info */}

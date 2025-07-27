@@ -16,22 +16,20 @@ import {
 export default function Home() {
   return (
     <div
-      className="w-full min-h-screen text-black bg-cover bg-center"
+      className="w-full min-h-screen text-black  bg-blue-100"
       style={{
         backgroundImage: "./assets/images/home-bg1.jpg",
         backgroundSize: "cover",
       }}
     >
-      <div className="bg-white/80 w-full min-h-screen">
+      <div className=" w-full min-h-screen">
         <div className="px-4 sm:px-6 py-12 max-w-6xl mx-auto">
           {/* Welcome Section */}
           <div className="text-center mt-20 mb-16">
-            <h1 className="text-3xl sm:text-3xl font-semibold text-blue-600 gap-3.5">
-              Hello, <br /> I'm Chioma, <br />
-            </h1>
-            <br />
+            
+            
             <p className="text-gray-900 mt-4 text-3xl font-bold flex-row">
-              A Passionate Frontend Developer <br /> & Blockchain Enthusiast <br />
+              A Passionate Frontend Developer 
             </p>
             <p className="text-gray-900 mt-3 max-w-3xl mx-auto text-base">
               I specialize in crafting visually engaging and responsive web applications using modern
@@ -39,7 +37,7 @@ export default function Home() {
               frontend development and a keen interest in the decentralized web, I am on a mission to
               build products that are both beautiful and impactful.
             </p>
-            <br />
+            
           </div>
 
           {/* Skills Section */}
@@ -63,7 +61,7 @@ export default function Home() {
             </div>
 
             {/* Tools */}
-            <div className="mb-20">
+            <div className="mb-20 text-wrap">
               <h3 className="text-2xl font-semibold mb-6 text-blue-600">Development Tools</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
                 <SkillItem icon={<SiGit className="text-red-500 text-3xl" />} label="Git" />

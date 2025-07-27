@@ -9,13 +9,13 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center gap-6 max-w-6xl mx-auto">
 
         {/* Name & Tagline */}
-        <div className="text-[#64ffda] font-mono font-extrabold text-[20px] text-center md:text-left">
-          <h1>Chioma Ozuru</h1>
+        <div className="text-[#eaf5f2] font-mono font-extrabold text-[20px] text-center md:text-left">
+          <h1>Chioma</h1>
           <p className="text-sm text-gray-400">Frontend Developer | Blockchain Enthusiast</p>
         </div>
 
         {/* Social Links */}
-        <div className="flex gap-6 text-[#64ffda]">
+        <div className="flex gap-6 text-[#e7f0ee]">
           <a
             href="https://github.com/Chichibekee"
             target="_blank"

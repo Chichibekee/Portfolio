@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="bg-gray-700 text-[#64ffda] py-4">
+    <header className="bg-gray-700 text-[#f4f3fa] py-4">
       <nav className="max-w-6xl mx-auto px-4 flex justify-between items-center font-bold text-lg sm:text-xl">
         {/* Left Side: Logo */}
         <div className="text-2xl">Chioma</div>
