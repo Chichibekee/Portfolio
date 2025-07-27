@@ -1,5 +1,4 @@
 
-import moove from "../assets/moove.png";
 import piggy from "../assets/piggy.png";
 import contactForm from "../assets/contact-form.png";
 import  calculator from "../assets/calculator.png";
@@ -8,7 +7,6 @@ const projects = [
   {
     title: "Bolt Booking Website",
     description: "Built using HTML and CSS",
-    image: moove,
     link: "https://moove-nine.vercel.app/",
   },
   {
