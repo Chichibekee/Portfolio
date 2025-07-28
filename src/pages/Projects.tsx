@@ -1,8 +1,8 @@
 
-import moove from "../assets/moove.png";
-import piggy from "../assets/piggy.png";
-import contactForm from "../assets/contact-form.png";
-import calculator from "../assets/calculator.png";
+import moove from "/moove.png";
+import piggy from "/piggy.png";
+import contactForm from "/contact-form.png";
+import calculator from "/calculator.png";
 
 const projects = [
   {

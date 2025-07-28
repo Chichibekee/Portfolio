@@ -13,12 +13,13 @@ import {
   SiGit,
 } from "react-icons/si";
 
+
 export default function Home() {
   return (
     <div
       className="w-full min-h-screen text-black  bg-blue-100"
       style={{
-        backgroundImage: "./assets/images/home-bg1.jpg",
+        backgroundImage: "/bg1.jpg",
         backgroundSize: "cover",
       }}
     >
@@ -26,7 +27,6 @@ export default function Home() {
         <div className="px-4 sm:px-6 py-12 max-w-6xl mx-auto">
           {/* Welcome Section */}
           <div className="text-center mt-20 mb-16">
-            
             
             <p className="text-gray-900 mt-4 text-3xl font-bold flex-row">
               A Passionate Frontend Developer 
